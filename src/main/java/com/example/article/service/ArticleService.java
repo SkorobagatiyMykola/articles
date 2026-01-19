@@ -31,6 +31,7 @@ public class ArticleService {
     }
 
     public ArticleDto getRandomArticle() {
+        System.out.println("===============");
         long count =articleRepository.count();
         long articleNum = new Random().nextLong(1,count);
         return getArticle(articleNum);

@@ -21,7 +21,12 @@ public class ArticleController {
     }
 
     @GetMapping("/trending")
-    public ArticleDto getRandomArticles(@PathVariable Long id){
+    public ArticleDto getRandomArticles(){
         return articleService.getRandomArticle();
+    }
+
+    @GetMapping("/test")
+    public String getTest(){
+        return "test";
     }
 }
