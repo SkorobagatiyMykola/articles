@@ -27,6 +27,6 @@ public class ArticleController {
 
     @GetMapping("/test")
     public String getTest(){
-        return "test";
+        return "test1";
     }
 }
