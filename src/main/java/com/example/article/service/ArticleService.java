@@ -3,11 +3,13 @@ package com.example.article.service;
 import com.example.article.dto.ArticleDto;
 import com.example.article.entity.Comments;
 import com.example.article.repository.ArticleRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.util.Random;
 
 @Service
+@Slf4j
 public class ArticleService {
     private final ArticleRepository articleRepository;
 
