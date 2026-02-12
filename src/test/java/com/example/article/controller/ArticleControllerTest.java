@@ -20,11 +20,6 @@ import static org.junit.Assert.assertNotNull;
 import static org.mockito.ArgumentMatchers.anyLong;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
-
-//@RunWith(SpringRunner.class)
-//@WebMvcTest(ArticleController.class)
 @SpringBootTest
 public class ArticleControllerTest {
 
